@@ -31,7 +31,7 @@ Create a New account in github
               git config --global user.email <YourMailId>
                git config --global user.name <Your Git UserName>      
  
-         git commit -m "Day1 Exercise"
+         git commit -a -m "Day1 Exercise"
           
                     1) It ask username and password
  
@@ -41,8 +41,8 @@ Create a New account in github
 
 8) Push your code to Remote Repo
 
-       git push -u origin master 
+       git push / git push -u origin master 
 
 9) Next time issue the following command to update
 
-      git pull
+	git pull
