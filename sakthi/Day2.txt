@@ -1,0 +1,65 @@
+sakthisaravanan.p@gmail.com
+
+
+Arrays:
+
+1) Write a Java program to sort a numeric array
+2)Write a Java program to sum values of an array
+3)Write a Java program to calculate the average value of array elements
+
+
+
+
+1) Constructors
+2) Methods
+    - Function overloading
+3)Packages
+
+
+1) Create a Folder
+      -> create a class
+             -> First line should be pkg name
+2) Compile the class file with folder/*.java
+
+3) Go the main class import
+
+=======================================
+
+
+
+4)Inheritance  - Function overriding
+
+       1) Parent / Super class 
+                                    extends
+       2) Child / Subclasses
+
+
+implemtation
+1) Single
+2) Multilevel
+3) Hierarhical
+4) Hybrid
+
+
+Multiple Inheritance
+
+                                 class a 
+                                  - methodA
+        class B  => class a                    class C  => class a
+
+                                class D extends B, C 
+
+                                d.methodA()
+
+Interfaces
+
+
+
+
+1) Autoboxing/Unboxing -> Class  Compatability - type conversion
+2) Abstract class , Interfaces, Inner class
+
+
+
+
+

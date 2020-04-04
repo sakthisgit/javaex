@@ -1,0 +1,83 @@
+Day1:
+======
+
+1) Print 10000 Prime Nos
+2) Create instance for Employee/Manager class (Necessary varibels), and count the no.of manager objects created
+
+
+
+
+OOPS:
+
+1) Encapsulation
+        1) Class _ Blue print 
+        2) Objects _ Real time entity, instance for class 
+            - has Indentity
+            - Behavior
+            - State
+
+        class className{
+
+                    Data Member;
+                    Member Function
+
+        }
+        object ob1 = new className();
+
+
+
+        2) Abstraction
+                 Data hiding
+                        1) private
+                        2) public
+                        3) protected
+                        4) default
+
+2) Inheritenace
+        Reusability
+            1) Single
+            2) Multiple => Diamond death problem => Interfaces
+            3)Multilevel
+            4) hierarical
+            4) hybrid
+
+            Relation:
+
+                IS- A
+                Has-A 
+
+
+   class Animal{}
+   class Cat extends Animal{}
+class Dog extends Animal{}
+
+
+
+
+
+
+3) Polymorphism
+        More than one form from sigle interface
+        1) Compile time / Static
+                - Function overloading
+        2) Runtime / Dynamic
+                - Function overriding
+
+
+                A - calculatesalary             B b = new A();
+                                                  b.calculatesalary();
+
+            B        C 
+=======>
+
+
+                D   new D().calculatesalary();
+
+
+
+
+
+
+1) Static 
+
+                 
