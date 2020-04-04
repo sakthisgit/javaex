@@ -1,3 +1,9 @@
+Create a New account in github
+
+                https://github.com/
+
+
+
 1) install the git by the following command
 
               apt install git -y
@@ -17,4 +23,26 @@
 
 6) Add all your New file and folder by the following command
 
-        git add 
+        git add .
+7) Commit your code to local repo
+
+         One time set global username and your mail
+  
+              git config --global user.email <YourMailId>
+               git config --global user.name <Your Git UserName>      
+ 
+         git commit -m "Day1 Exercise"
+          
+                    1) It ask username and password
+ 
+                       provide your username and password
+
+                
+
+8) Push your code to Remote Repo
+
+       git push -u origin master 
+
+9) Next time issue the following command to update
+
+      git pull
