@@ -3,8 +3,8 @@
 3) Explore dynamic binding with Animal classes
 4) Create an inner class for a manager, which contains information about the manager. Use the
 appropriate interfaces. Create an anonymous inner class for Tech. Members using the Session
-one assignment
-
+(Build a class Emp, which contains details about
+the employee and compile and run its instance))
 ===================================================================
 
 
