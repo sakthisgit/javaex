@@ -27,6 +27,10 @@ class Employee{
         System.out.println("Hireday "+dd+"-"+mm+"-"+yy);
     }
 
+    public void display(){
+        System.out.println("Parent Class");
+    }
+
 }
  class Manager extends Employee{
 
@@ -43,9 +47,19 @@ class Employee{
         }
 
 
+        // Additional Method
+        public void setBonus(){
+            System.out.println("Bonus Created");
+        }
+
+
         public long salaryCompute(long inc){
             this.salary += this.salary * inc/100 + (salary*20/100) ;
         return this.salary;
+        }
+
+        public void display(){
+            System.out.println("Child Class");
         }
 
 
@@ -62,6 +76,26 @@ public class Inhe2 {
         Employee emp = new Employee("sakthi",10000,10,01,1020);
         emp.displayInfo();
         System.out.println(emp.salaryCompute(10));
+
+
+
+        Employee e = new Manager("sakthi",10,10,10,10);
+        System.out.println(e.salaryCompute(10));
+        e.displayInfo();
+
+
+
+        //Narrowig casting
+        m.setBonus();
+        Employee e2 = m;  // Widening casting
+
+        e2.display();
+       
+
+        Manager m2 = (Manager) e2; //Narrowing casting
+        m2.setBonus();
+        m2.display();
+
         
         
     }

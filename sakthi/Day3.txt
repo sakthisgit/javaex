@@ -1,2 +1,28 @@
+1) Define and give example for a static inner class
+2) Give an example for Interfaces and Abstract classes
+3) Explore dynamic binding with Animal classes
+4) Create an inner class for a manager, which contains information about the manager. Use the
+appropriate interfaces. Create an anonymous inner class for Tech. Members using the Session
+one assignment
+
+===================================================================
+
+
+
+
 1) Autoboxing/Unboxing -> Class  Compatability - type conversion
 2) Abstract class , Interfaces, Inner class
+
+
+Autoboxing
+
+1) int to float
+   int i=10
+    float t = i ()Autoboxing t=10.00
+
+    float to int
+
+    float t= 20.23
+    int i = (int) t // Unboxing
+
+
