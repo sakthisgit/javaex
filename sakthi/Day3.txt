@@ -1,0 +1,2 @@
+1) Autoboxing/Unboxing -> Class  Compatability - type conversion
+2) Abstract class , Interfaces, Inner class
