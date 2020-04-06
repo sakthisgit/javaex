@@ -41,7 +41,7 @@ Create a New account in github
 
 8) Push your code to Remote Repo
 
-       git push / git push -u origin master 
+       git push (or) git push -u origin master 
 
 9) Next time issue the following command to update
 
