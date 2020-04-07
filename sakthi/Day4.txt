@@ -1,0 +1,61 @@
+Exercise:
+
+Create a user defined exception to check whether your employee exist in your data structure
+and using the catch and finally block. Redeem an appropriate solution
+
+==============================
+
+
+Exception Handling
+
+Exception-Handling: Basics, Role of Exceptions, Types
+ Using try and catch, Multiple Catch, Nested try (throw, throws, finally)
+ Built-in Exceptions, Runtime Exceptions Checked Exceptions, Errors
+ Creating own Exception Subclasses
+
+
+
+====================================================
+
+OOPS
+=====
+1) Encapsulation
+               class and Objects
+
+2) Polymorphism
+               Function overloading
+3) Inheritance
+       -> extends
+       _> Super
+        -> Interfaces
+        -> Abstract class 
+         -> Inner class
+
+
+==============
+
+1) Exception Handling
+2) Threading
+3) i/o Packges => New io
+4) Collection / Collections Framework
+5) JDBC
+
+==================
+
+
+JAVA Exception
+
+1) try catch
+2) throws
+3) throw
+
+
+1) Checked Exception
+2) UnChecked Exceptions
+
+                  Exception
+
+        Arithmetic    ArrayIndexOutOfBounds      IOException   MyException 
+
+        4) finally statement
+
