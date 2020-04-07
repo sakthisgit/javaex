@@ -45,4 +45,4 @@ Create a New account in github
 
 9) Next time issue the following command to update
 
-	git pull
+	git merge and git pull
