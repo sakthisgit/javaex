@@ -1,4 +1,4 @@
-package NTU_EDU;
+
 
 public class Student extends Person {
     private String program;

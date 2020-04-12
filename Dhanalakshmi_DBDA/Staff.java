@@ -1,4 +1,4 @@
-package NTU_EDU;
+
 
 public class Staff extends Person {
     private String school;

@@ -1,4 +1,3 @@
-package NTU_EDU;
 import java.util.Scanner;
 
 public class TestStudentStaff {
@@ -28,7 +27,7 @@ public class TestStudentStaff {
          st_pay = sc.nextDouble();
          System.out.println("Enter 1 to continue entering staff details(any other number will exit prompting)");
          isStaffEnough = (sc.nextInt() == 1) ? false : true;
-         Staff[] stf;
+         Staff[] stf=new Staff[5];
          do
          {
          stf[i] = new Staff(st_name,st_addr,st_school,st_pay);
