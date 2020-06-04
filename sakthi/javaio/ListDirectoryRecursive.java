@@ -3,7 +3,7 @@ import java.io.File;
 
 public class ListDirectoryRecursive {
    public static void main(String[] args) {
-      File dir = new File("/home/sakthis");  // Escape sequence needed for '\'
+      File dir = new File("/home/sakthis/javaex/acts2020/javaex/sakthi");  // Escape sequence needed for '\'
       listRecursive(dir);
    }
    

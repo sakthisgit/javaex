@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 public class ListDirectoryWithFilter {
    public static void main(String[] args) {
-      File dir = new File(".");   // current working directory
+      File dir = new File("../");   // current working directory
       if (dir.isDirectory()) {
          // List only files that meet the filtering criteria
          //  programmed in accept() method of FilenameFilter.
