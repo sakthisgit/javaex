@@ -1,31 +1,37 @@
+// Inter Thread Communication
 
-class Resource{
+
+class Resource{       // Shared Resource
+
      String resourceName;
-     boolean lock = false;
+     boolean lock = false;   // Lock => Conditional Variable
 
 
 
-     public synchronized String get()
+     public synchronized String get()    // Read Method
      {
-           while (lock == false){
+           while (lock == false){     // Check Lock is available; if Not waiting for lock
                  try{
                        wait();
                  }
-                 catch (InterruptedException ie){}
-                 
+                 catch (InterruptedException ie){}                 
            }
-           try{
-            Thread.sleep(1000);
 
-        }catch(Exception e){}
-           lock = false;
-           notifyAll();
+
+            try{
+                Thread.sleep(1000);
+
+            }catch(Exception e){}
+           
+        
+            lock = false;             
+           notifyAll();           // Once Job is done; notify to all the threads 
            return resourceName;
      }
 
-     public synchronized void put(String name)
+     public synchronized void put(String name)   // Write Method
      {
-           while (lock == true)
+           while (lock == true)            
            {
                  try
                  {
@@ -50,7 +56,7 @@ class Resource{
 }
 
 
-class Producer extends Thread{
+class Producer extends Thread{               // Producer Thread
 
     Resource r;
 
@@ -71,8 +77,8 @@ class Producer extends Thread{
 }
 
 
-class Consumer extends Thread{
-
+class Consumer extends Thread{            // Consumer Thread
+ 
     Resource r;
 
     public Consumer(Resource r){
@@ -82,7 +88,7 @@ class Consumer extends Thread{
     public void run(){
 
         for(int i=0;i<10;i++){
-            System.out.println("Consumer Thread"+r.get());;
+            System.out.println("Consumer Thread"+r.get());;   // Call Read Method, and get the value 
         }
 
             
@@ -93,14 +99,13 @@ class Consumer extends Thread{
 }
 
 
-
-
 public class InterThreadCommunication {
 
     public static void main(String[] args){
-        Resource r = new Resource();
-        Producer p = new Producer(r);
-        Consumer c = new Consumer(r);
+        Resource r = new Resource();  // Shared Resources
+
+        Producer p = new Producer(r);   // Object passed to producer Thread
+        Consumer c = new Consumer(r);   // Same Object passed to cosumer Thread
 
         p.start();
         c.start();
