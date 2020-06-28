@@ -1,4 +1,4 @@
-package NTU_EDU;
+
 import java.lang.*;
 public class Book {
     private String name;

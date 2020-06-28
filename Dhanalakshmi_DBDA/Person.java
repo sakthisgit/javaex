@@ -1,4 +1,4 @@
-package NTU_EDU;
+
 
 public class Person {
     private String name;

@@ -12,7 +12,7 @@
      NTU_EDU\TestBook.java:6: error: illegal start of type
      Book book1 = new Book("Python",{new Author("Wes McKinney","wesmckinney@gmail.com",'M')},100.00);
 */
-package NTU_EDU;
+
 import java.util.Scanner;
 public class TestBook {
     public static void main(String[] args) {
