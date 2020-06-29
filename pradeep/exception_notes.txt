@@ -1,0 +1,19 @@
+1) NullPointerException : This exception is thrown when one attempt to use a method or variable in a variable name that contains a null object reference. The following method results in a NullPointerException at run time:
+
+2) NumberFormatException : This exception is thrown by some methods in classes of System package when one try to convert an invalid string to a number or vice versa.
+
+3) SecurityException : This exception is thrown by some methods in the System package when one attempt to call a method that will perform an action not allowed by the current security settings of the browser within which the applet code is running. It can also be thrown if the program denies permission when prompted whether to allow an action such as writing to a file.
+
+4) StringIndexOutOfBoundsException : A StringIndexOutOfBoundsException is thrown when one try to access a character that is out of the bounds of a string, meaning that using an index of less than zero or greater than or equal to the length of the string. Following is an example that would throw a StringIndexOutOfBoundException :
+
+5) ClassNoFoundException : This exception is thrown by the class loader when a class file is not found when a class is attempted to be instantiated.
+
+6) DataFormatException : This exception is thrown when data being read from a string appears to be in an invalid format.
+
+7) IllegalAccessException : This exception is thrown by methods in java.lang class when instantiating a class by its name if the class is not public or there is no public constructor. One might encounter this exception if calling a method that, in turn, calls one of these methods.
+
+8) InstantiationException : This exception is thrown when an attempt is made to instantiate an abstract class, primarily by methods in java.lang class when instantiating a class by its name.
+
+9) InterruptedException : This exception is thrown within a thread when it is interrupted by some other thread. This exception will be illustrated during the discussion of Thread in Java.
+
+10) NoSuchMethodException : This exception is thrown when a particular method in an object or class cannot be found.
