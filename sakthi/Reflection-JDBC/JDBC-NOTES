@@ -1,0 +1,88 @@
+1) Register Driver
+==================
+
+	try{
+			class.forName(DriverClassName);
+	}catch(ClassNotFoundException ex){}
+
+
+
+2) Establish the Connection
+============================
+
+		Connection con = DriverManager.getConnection(URI, username, password);
+
+
+3) Create the Statement:
+========================
+
+
+
+	a) Statement:
+	===========
+
+	Statement st = con.createStatement("Select * from Students");
+
+	query2 = "insert into Students(name, age) values("name", "15");
+
+	query3 = "insert into Students(name, age) values("name1", "12");
+
+
+	Statement st = con.createStatement(query2);
+
+
+	Statement st = con.createStatement(query3);
+
+
+	b) PreparedStatement:
+	=================
+
+	query4 = "insert into Students(name, age) values(?,?); 
+
+	PreparedStatement pt = conn.PreparedStatement(query4);
+
+	pt.setString(1,"name5");
+	pt.setInt(2,15);
+
+	pt.setString(1,"name6");
+	pt.setInt(2,15);
+
+	pt.setString(1,"name6");
+	pt.setInt(2,15);
+
+	pt.setString(1,"name7");
+	pt.setInt(2,15);
+
+
+	c) Callable Statement => Call the function/procedure
+
+4) Execute the Query and Process the Result set 
+===================
+
+	1) Statement.executeQuery();
+
+
+			Example:
+				a) st.exectue()
+				b) pt.execute()
+
+	2) ResultSet => (Row of results)
+
+		1) next() => cursor is moved into next row
+		2) getString(1) // getString("name")
+		3) getInt(2) // getInt("age")
+
+
+		while(rs.next()){
+				System.out.println(rs.getString("name") + "   "+rs.getInt("age"));
+			}
+
+5) Close the connections
+
+			
+
+
+
+
+
+

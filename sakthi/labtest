@@ -1,0 +1,30 @@
+Write the Following program
+
+a.       Write a java program to perform Word Count, Line count. Counting the occurrence of a particular string in a file.
+
+b.      Write a Client Server Program
+
+
+Create a two files and write a line into the file:
+
+   i.      File one: Hello Welcome to JAVA
+
+   ii.      File Two: This is Lab Test
+
+		Create another file write a content of first and second file mixed with following outputs
+
+		File three: Hello This Welcome is to Lab JAVA Test
+
+
+Write the following program:
+
+a.       Write a Java program to sort a given array list
+
+b.      Write a Java program to copy one array list into another.
+
+
+ Write the following program
+
+a.       Write a java program to create a dictionary and store the value in the dictionary, find a given word from the dictionary
+
+b.      Write a user defined exception program for illegal data type exception
